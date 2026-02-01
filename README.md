@@ -1,6 +1,6 @@
 # É a Minha Cena!
 
-Projeto final desenvolvido em Laravel, com base na arquitetura MVC, no âmbito da unidade de Server-Side Development.
+Projeto final desenvolvido em Laravel, com base na arquitetura MVC.
 
 A aplicação tem como tema a música e permite consultar, criar e gerir bandas e respetivos álbuns, de acordo com o tipo de utilizador.
 
