@@ -30,6 +30,58 @@ A aplicação utiliza a arquitetura **MVC (Model–View–Controller)**, autenti
 * Blade
 * Bootstrap
 
+## Como correr o projeto
+
+1. Clonar o repositório:
+
+```bash
+git clone https://github.com/saramelodesign-arch/minha_cena.git
+```
+
+2. Entrar na pasta do projeto:
+
+```bash
+cd minha_cena
+```
+
+3. Instalar dependências:
+
+```bash
+composer install
+```
+
+4. Criar ficheiro de ambiente:
+
+```bash
+cp .env.example .env
+```
+
+5. Gerar a chave da aplicação:
+
+```bash
+php artisan key:generate
+```
+
+6. Configurar a base de dados no ficheiro `.env`.
+
+7. Criar tabelas e dados iniciais:
+
+```bash
+php artisan migrate --seed
+```
+
+8. Criar link para o storage:
+
+```bash
+php artisan storage:link
+```
+
+9. Iniciar o servidor:
+
+```bash
+php artisan serve
+```
+
 ## Base de Dados
 
 A base de dados é criada através de **migrations**.
@@ -40,4 +92,3 @@ Foi utilizado um **DatabaseSeeder** apenas para criar um utilizador gestor, faci
 
 * Email: [gestor@minhacena.pt](mailto:gestor@minhacena.pt)
 * Password: password
-
